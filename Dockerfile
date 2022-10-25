@@ -1,4 +1,4 @@
-ARG TAG=3.10.1-alpine3.15
+ARG TAG=3.11.0-alpine3.15
 FROM python:${TAG} as builder
 
 WORKDIR /bin_dir
